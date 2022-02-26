@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    padding: 30px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 5px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.sedans a {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvs a {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.luxury a {
+    color: hsl(179, 100%, 13%);
+}
+
+p {
+    color: aliceblue;
+    font-family: "Big Shoulders Display", cursive;
+    font-size: large;
+    padding: 30px;
+    display: grid;
+}
+
+.lermais {
+    background-color: rgb(240, 239, 236);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    width: 98px;
+}
+
+h1 {
+    display: grid;
+    width: min-content;
+    color: aliceblue;
+    padding-left: 20px;
+    font-size: xx-large;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    padding: 5vh;
+}
+
+footer {
+    display: flex;
+    place-content: center;
+    padding: 30px;
+}
